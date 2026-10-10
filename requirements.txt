@@ -1,0 +1,8 @@
+numpy>=1.26
+pytest>=8.0
+
+# Stretch: needed once the real backend adapters are wired up, not yet installed
+# psycopg[binary]>=3.1   # pgvector_adapter.py
+# qdrant-client>=1.9     # qdrant_adapter.py
+# faiss-cpu>=1.8         # faiss_adapter.py
+# locust>=2.25           # concurrent load testing
